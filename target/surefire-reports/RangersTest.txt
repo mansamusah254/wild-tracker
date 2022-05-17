@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: RangersTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 7.912 sec <<< FAILURE! - in RangersTest
+entriesAreDeleted(RangersTest)  Time elapsed: 1.283 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+
+allSightingsAreReturnedForRanger(RangersTest)  Time elapsed: 1.113 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+
+createInstanceOfRangersClass_true(RangersTest)  Time elapsed: 0.593 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+
+findById(RangersTest)  Time elapsed: 1.248 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+
+entryIsUpdatedCorrectly(RangersTest)  Time elapsed: 1.228 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+
+allEntriesAreSaved(RangersTest)  Time elapsed: 1.127 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+
+emptyFieldsAreNotSaved(RangersTest)  Time elapsed: 1.227 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "197.237.24.209", user "tlafeaczpyudbw", database "d7m5mfo9caefm6", SSL off
+
